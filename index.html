@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <h1>Random Password Generator</h1>
+        <input id="myInput" placeholder="Generated Password">
+        <button id="generateButton">Press To Generate Password</button><br><br>
+        <button onclick="copyText(event)" id="copyButton">Copy Your Password</button><br>
+        <!-- <input type="radio" id="capitalL">Include Capital Letters
+        <input type="radio" id="specialL">Include Special Letters
+        <input type="radio" id="smallL">Include Small Letters
+        <input type="radio"id="numbersL">Include Numbers -->
+    </form>
+    <div id="toast"></div>
+    <script src="script.js"></script>
+</body>
+</html>
